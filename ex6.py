@@ -1,3 +1,4 @@
+#Stings and Text
 # the number of  type of people
 types_of_people = 10
 
@@ -25,7 +26,6 @@ print(f"I said: {x}")
 #print a combined string with y
 print(f"I also said: '{y}'")
 
-#not known
 hilarious = "False"
 #not known
 joke_evaluation = "Isn't that joke so funny?! {}"
