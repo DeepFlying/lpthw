@@ -1,3 +1,4 @@
+#Paramters, Unpacking, Variables
 from sys import argv
 #read the WYSS section for how to run this
 script, first, second, third = argv
