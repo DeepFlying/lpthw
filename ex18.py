@@ -1,3 +1,4 @@
+#Names, Variables, Code, Functions
 #this one is like your script with argv
 def print_two(*args):
     arg1, arg2 = args
@@ -15,7 +16,11 @@ def print_one(arg1):
 def print_none():
     print("I got nothing.")
 
+
 print_two("Tom","Sawyer")
-print_two_again("Tom","Sawyer")
+Tom = input("Your first name ?")
+Sawyer = input("Your last name ?")
+print_two_again(Tom,Sawyer)
+
 print_one("First!")
 print_none()
