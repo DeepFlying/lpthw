@@ -1,15 +1,17 @@
+#Functions  Can Return Something
+#the math function of add
 def add(a, b):
     print(f"ADDING {a} + {b}")
     return a + b
-
+#the math function of substact
 def subtract(a, b):
     print(f"SUBTRACTING {a} - {b}")
     return a - b
-
+#the math function of multiply
 def multiply(a, b):
     print(f"MULTIPLYING {a} * {b}")
     return a * b
-
+#the math function of divide
 def divide(a, b):
     print(f"DIVIDING {a} / {b}")
     return a / b
