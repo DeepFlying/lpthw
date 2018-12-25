@@ -44,7 +44,7 @@ def cthulhu_room():
     print("He, it, whatever stares at you and you go insane.")
     print("Do you flee for your life or eat your head?")
     
-    choice = input("> ")
+    choice = input("\"flee\" or \"head\"\n> ")
 
     if "flee" in choice:
         start()
