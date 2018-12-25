@@ -24,7 +24,7 @@ def bear_room():
     bear_moved = False
 
     while True:
-        choice = input("> ")
+        choice = input("\"take honey\" or \"taunt bear\" or \"open door\"\n> ") # add some hint
 
         if choice == "take honey":
             dead("The bear looks at you then slap your face off.")
@@ -62,7 +62,7 @@ def start():
     print("There is a door to your right and left.")
     print("Which one do you take?")
 
-    choice = input ("> ")
+    choice = input ("\"left\" or \"right\"\n> ")        # add some hint
 
     if choice == "left":
         bear_room()
