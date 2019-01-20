@@ -9,13 +9,13 @@ PHRASES = {
         "class %%%(%%%):":
             "Make a class named %%% that is-a %%%.",
         "class %%%(object):\n\tdef __init(self, ***)" :
-            "class %%%has-a __init__ that takes self and *** params.",
+            "class %%% has-a __init__ that takes self and *** params.",
         "calss %%%(object):\n\tdef ***(self, @@@)":
-            "class %%% has-a function *** that takes self and @@@ params",
+            "class %%% has-a function named *** that takes self and @@@ params",
         "*** = %%%":
             "Set *** to an instance of class %%%.",
         "***.***(@@@)":
-            "From *** get the *** function, call it with params self, @@@.",
+            "From *** get the *** function, call it with parameters self, @@@.",
         "***.***='***'":
             "From *** get the *** attribute and set it to '***'."
 }
